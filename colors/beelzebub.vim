@@ -93,19 +93,20 @@ let s:normals = s:normals + [
       \ "DiffText",
       \ ]
 let s:lamrons = s:lamrons + [
-      \ "Cursor",
       \ "Search",
-      \ "MatchParen",
       \ "Visual",
       \ ]
 let s:muted = s:muted + [
       \ "NonText",
       \ "Folded",
       \ "FoldColumn",
+      \ "MatchParen",
       \ "LineNr",
       \ "SpecialKey",
       \ "Directory",
       \ "StatusLine",
+      \ "StatusLineNC",
+      \ "QuickFixLine",
       \ "WildMenu",
       \ "Pmenu",
       \ "SignColumn",
@@ -130,6 +131,7 @@ let s:muted = s:muted + [
       \ "SpellRare",
       \ ]
 let s:clear = s:clear + [
+      \ "Cursor",
       \ "CursorLine",
       \ "VertSplit",
       \ "TabLine",
