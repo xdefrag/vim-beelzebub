@@ -1,6 +1,8 @@
 # Beelzebub
 Easy for eyes and mind minimal three-colors colorscheme.
 
+For Emacs version look at [peregrinat0r/beelzebub.el](https://github.com/peregrinat0r/beelzebub.el)
+
 ![](screenshots/beelzebub-dark.png)
 
 ## Installation
