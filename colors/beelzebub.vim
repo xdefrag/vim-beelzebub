@@ -22,7 +22,7 @@ if exists("g:beelzebub_bg")
 endif
 
 if exists("g:beelzebub_fg")
-  let s:bg = g:beelzebub_fg
+  let s:fg = g:beelzebub_fg
 endif
 
 if exists("g:beelzebub_muted")
