@@ -18,6 +18,7 @@ Or just throw beelzebub.vim in your colors directory.
 ## Usage
 
 ```vim
+set t_Co=256 " This is important!
 set background=dark
 colorscheme beelzebub
 ```
@@ -27,7 +28,12 @@ colorscheme beelzebub
 " You can adjust colors you want like this:
 let g:beelzebub_bg="233"
 let g:beelzebub_fg="250"
-let g:beelzebub_mute="60"
+let g:beelzebub_muted="60"
+
+" Nice zenburn-like colors
+let g:beelzebub_bg="238"
+let g:beelzebub_fg="231"
+let g:beelzebub_muted="152"
 
 " Add color noises for syntax highlightning:
 let g:beelzebub_syntax_mute=1
